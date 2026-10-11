@@ -1,0 +1,520 @@
+﻿<!doctype html>
+<html lang="fa">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language"  content="Fa">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[#blog_title#]</title>
+<meta name="keywords" content="[#blog_keyword#]">
+<meta name="describtion" content="[#blog_describtion#]">
+<metatags></metatags><!-- متاتگ ها خالي باشد -->
+<scripts></scripts><!-- كد هاي اسكريپت خالي باشد -->
+<styles></styles><!-- استايل ها خالي باشد -->
+<link href="[#blog_url#]temp/templates/3theme/91/css/res.css" rel="stylesheet" type="text/css">
+<link href="[#blog_url#]temp/templates/3theme/91/css/general.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="[#blog_url#]temp/templates/3theme/91/js/jquery.js"></script>
+<script type="text/javascript" src="[#blog_url#]temp/templates/3theme/91/js/res.js"></script>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <div class="row">
+      <div class="site-title">
+                    <h1><a href="[#blog_url#]"> [#blog_title#] </a></h1>
+                    <h3> [#blog_describtion#] </h3>
+                </div>
+    </div>
+  </div>
+  <!--- end header --->
+  <div class="topbar">
+    <div class="row">
+      <div class="pc-36">
+        <div class="navi">
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only hidden-mob">فهرست</span> <span class="resmenu"></span> </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+<fb:menu> <!--منو-->
+                                <fb:menu_item><!--آيتم هاي منو-->
+                                    <li><a href="[#menu_link#]" class="[#menu_active#]" target="_blank">[#menu_title#]</a></li>
+                                </fb:menu_item>
+                            </fb:menu>
+                            </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--- end navbar --->
+  <div class="row">
+    <div class="pc-20 pc-push-7">
+      <fb:last_posts>
+                <div class="menu-block">
+                    <div class="menu-title"> <span class="menu-title-icon"></span>
+                        <h3> تازه ترين مطالب</h3>
+                    </div>
+                    <div class="topnews">
+                        <ul>
+                            <fb:post_item limit="6">
+                                <li><a href="[#post_link#]"><img src="[#Post_Image#]" alt="[#post_title#]" title="[#post_title#]"/>[#post_title#]</a></li>
+                            </fb:post_item>
+                        </ul>
+                    </div>
+                </div>
+                <!--- end menubox --->
+        </fb:last_posts>
+      <!--- end menubox --->
+      
+      <div class="content">
+        <fb:messages>
+                    <div class="messages-box item_[#message_type#]">
+                        <div class="messages-text">  </div>
+                    </div>
+                </fb:messages>
+        <!--- end messages box --->
+        
+        <fb:slide>[#slide#]</fb:slide>         <fb:royablog><div class="post">
+          <div class="post-title"> <span class="post-title-icon"></span>
+            <h2><a href="[#post_link#]" target="_blank"> [#post_title#] </a></h2>
+          </div>
+          <div class="post-body">
+            <div class="post-details"> <span class="postdate"> [#post_date="l d F y"#] | [#post_date="H:i"#] </span> <span class="postviews"> [#post_view#] بازديد </span> </div>
+            <div class="post-cnt">
+              <fb:post_image><div class="post-thumb"> <img src="[#post_image#]"/> </div></fb:post_image>
+              [#post_content#]
+              </div>
+            <fb:post_tag><div class="post-tags"> <span class="tag"> </span>
+                                    برچسب ها: <fb:tags><a href="[#tag_link#]">[#tag_title#]</a>, </fb:tags>
+            </div></fb:post_tag>
+          </div>
+          <div class="post-info">
+            <ul>
+              <li> <span class="postauthor">[#post_author#]</span> </li>
+              <fb:post_rating><li class="postlike">
+                                    <a href="[#rate_up_link#]" class="uplike"><span class="like-up"></span></a><span class="up-result">[#rate_up#]</span>
+                                    <a href="[#rate_down_link#]" class="downlike"><span class="like-down"></span> </a><span class="down-result">[#rate_down#]</span>
+                                </li></fb:post_rating>
+              <fb:post_short><li> <span class="postmore"><a href="[#post_link#]">ادامه مطلب</a></span> </li></fb:post_short>
+              <li> <span class="postcmnt"> <a href="[#post_comment_link#]">[#post_comments#] نظر</a></span> </li>
+            </ul>
+          </div>
+        </div></fb:royablog>
+        <!--- end post --->
+        
+        <fb:blog_page>
+                <div class="pagination">
+                    <fb:page_prev><a href="[#prev_page_link#]">قبلي</a></fb:page_prev>
+                    <fb:page_item>
+                        <a href="[#page_link#]" class="[#page_class#]">[#page_num#]</a>
+                    </fb:page_item>
+                    <fb:page_next><a href="[#next_page_link#]">بعدي</a> </fb:page_next>
+                </div>
+            </fb:blog_page>
+        <!--- end pagenavi ---> 
+        
+        <!--- Start PAGES --->
+        
+        <!--- end PAGES --->
+        
+        <fb:post_comments>
+                    <div class="comment-block" id="comments">
+                        <fb:comment_has_not><div class="comments-cunt-box">
+                            <div class="comments-cunt-text"> تا كنون نظري ثبت نشده است </div>
+                        </div></fb:comment_has_not>
+                        <!--- end comments cunt messages --->
+                        <fb:comment_item>
+                            <div class="comment-list">
+                                <div class="comment-box">
+                                    <div class="comment-details">
+                                        <div class="row">
+                                            <div class="pc-18 comment-user"> <span class="comment-avatar"> <img src="[#comment_avatar#]"/> </span> <span class="comment-sender"> <fb:comment_name>[#comment_name#]</fb:comment_name> </span>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="pc-18 comment-info"> <fb:comment_website><a href="[#comment_website#]" class="comment-web"></a></fb:comment_website> <fb:comment_email><a href="mailto:[#comment_email#]" title="[#coment_email#]" class="comment-email"></a></fb:comment_email> <a href="#" class="comment-date">[#comment_date="l d F y"#]</a> </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment-text">[#comment_text#]</div>
+                                </div>
+                                <!--- end comment box --->
+
+                                <fb:comment_reply>
+                                    <div class="comment-replay">
+                                        <div class="row">
+                                            <div class="pc-18 comment-replay-name"> پاسخ مدير: </div>
+                                            <div class="pc-18 comment-replay-date"> [#comment_replay_date="l d F y, H:i"#] </div>
+                                        </div>
+                                        <div class="comment-replay-text"> [#comment_reply#] </div>
+                                    </div>
+                                </fb:comment_reply>
+                                <!--- end comment replay --->
+
+                            </div>
+                        </fb:comment_item>
+                        <!--- end comment list --->
+
+                        <div class="comment-box comment-send-form">[#post_comment_form#]</div>
+                        <!--- end comment send form --->
+                    </div>
+                </fb:post_comments>
+        <!--- end comment block ---> 
+        
+      </div>
+      <!--- end content ---> 
+      
+    </div>
+    <!--- end col of posts --->
+    
+    <div class="pc-7 pc-pull-20">
+      <div class="sidebar">
+        <fb:bloginfo>
+                <div class="menu-block blogprofile">
+                    <div class="menu-title"> <span class="menu-title-icon"></span>
+                        <h3> درباره من</h3>
+                    </div>
+                    <div class="menu-cnt">
+                        <fb:blogimage><center>
+                            <img src="[#blog_image#]"/>
+                        </center>
+                        </fb:blogimage>
+
+                        <fb:blogabout>[#blog_about#]</fb:blogabout> </div>
+                </div>
+            </fb:bloginfo>
+        <!--- end menubox --->
+        
+        <fb:socials>
+                    <div class="menu-block socialbox">
+                        <div class="menu-title"> <span class="menu-title-icon"></span>
+                            <h3> من در شبكه هاي اجتماعي </h3>
+                        </div>
+                        <div class="menu-cnt">
+                            <ul>
+                                <fb:rss><li><a href="[#rss#]" id="social-rss" target="_blank"></a></li></fb:rss>
+                                <fb:facebook><li><a href="[#facebook#]" id="social-facebook" target="_blank"></a></li></fb:facebook>
+                                <fb:instagram><li><a href="[#instagram#]" id="social-instagram" target="_blank"></a></li></fb:instagram>
+                                <fb:telegram><li><a href="[#telegram#]" id="social-telegram" target="_blank"></a></li></fb:telegram>
+                                <fb:twitter><li><a href="[#twitter#]" id="social-twitter" target="_blank"></a></li></fb:twitter>
+                                <fb:google_plus><li><a href="[#google_plus#]" id="social-google" target="_blank"></a></li></fb:google_plus>
+                                <fb:linkedin><li><a href="[#linkedin#]" id="social-linkedin" target="_blank"></a></li></fb:linkedin>
+                                <fb:youtube><li><a href="[#youtube#]" id="social-youtube" target="_blank"></a></li></fb:youtube>
+                                <fb:vimeo><li><a href="[#vimeo#]" id="social-vimeo" target="_blank"></a></li></fb:vimeo>
+                                <fb:pinterest><li><a href="[#pinterest#]" id="social-pinterest" target="_blank"></a></li></fb:pinterest>
+                                <fb:flicker><li><a href="[#flicker#]" id="social-flickr" target="_blank"></a></li></fb:flicker>
+                                <fb:yahoo><li><a href="[#yahoo#]" id="social-yahoo" target="_blank"></a></li></fb:yahoo>
+                            </ul>
+                        </div>
+                    </div>
+                </fb:socials>
+        <!--- end menubox --->
+        
+        <fb:category>
+                    <div class="menu-block catbox">
+                        <div class="menu-title"> <span class="menu-title-icon"></span>
+                            <h3> موضوعات</h3>
+                        </div>
+                        <div class="menu-cnt">
+                            <ul>
+                                <fb:category_item>
+                                    <li ><a href="[#category_link#]"> [#category_title#] <span>([#category_count#])</span> </a>
+                                        <fb:sub_category>
+                                            <ul>
+                                                <fb:sub_category_item>
+                                                    <li>
+                                                        <a href="[#category_sub_link#]">[#category_sub_title#]<span>([#category_sub_count#])</span></a>
+                                                    </li>
+                                                </fb:sub_category_item>
+                                            </ul>
+                                        </fb:sub_category>
+                                    </li>
+                                </fb:category_item>
+                            </ul>
+                        </div>
+                    </div>
+                </fb:category>
+        <!--- end menubox --->
+        
+        <fb:authors>
+            <div class="menu-block authorbox">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3>نويسندگان</h3>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <fb:author_item><li><a href="[#author_link#]"> [#author_name#] <span>([#author_post_count#])</span></a></li></fb:author_item>
+                    </ul>
+                </div>
+            </div>
+        </fb:authors>
+        <!--- end menubox --->
+        
+        <fb:archives><div class="menu-block archivebox">
+                    <div class="menu-title"> <span class="menu-title-icon"></span>
+                        <h3> آرشيو</h3>
+                    </div>
+                    <div class="menu-list">
+                        <ul>
+                            <fb:archive_item><li><a href="[#archive_link#]"> [#archive_title#] <span>([#archive_count#])</span></a></li>
+                            </fb:archive_item>
+                        </ul>
+                    </div>
+                </div></fb:archives>
+        <!--- end menubox --->
+        
+        <fb:blog_tags><div class="menu-block tagsbox">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> برچسب ها</h3>
+                </div>
+                <div class="menu-cnt">
+                    <ul>
+                        <fb:tag_item>
+                            <li><a href="[#tag_link#]">[#tag_title#]</a></li>
+                        </fb:tag_item>
+                    </ul>
+                </div>
+            </div></fb:blog_tags>
+        <!--- end menubox --->
+        
+        <fb:links>
+            <div class="menu-block linkbox">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> پيوندها</h3>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <fb:link_item><li><a href="[#link_url#]" target="_blank">[#link_title#]</a></li></fb:link_item>
+                    </ul>
+                </div>
+            </div></fb:links>
+        <!--- end menubox --->
+        
+        <fb:vote>
+                <div class="menu-block poll [#vote_item#]">
+                    <div class="menu-title"> <span class="menu-title-icon"></span>
+                        <h3> نظرسنجي</h3>
+                    </div>
+                    <div class="menu-cnt">
+                        <ul>
+                            <li class="poll-question">[#vote_titr#]</li>
+                            <form method="post">
+                                <fb:vote_item><li class="poll-answer"><label><input type="radio" name="vote" value="[#vote_id#]">[#vote_title#]</label></li></fb:vote_item>
+                                <li class="poll-send">
+                                    <input type="submit" name="[#vote_item#]" value="ثبت نظر"/>
+                                </li>
+                            </form>
+                        </ul>
+                    </div>
+                </div></fb:vote>
+        <!--- end menubox --->
+        
+        <fb:stat>
+            <div class="menu-block blogstats">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> خلاصه آمار</h3>
+                </div>
+                <div class="menu-cnt">
+                    <ul>
+                        <fb:stat_item><li>[#stat_title#] <span>[#stat_value#]</span> </li></fb:stat_item>
+                    </ul>
+                </div>
+            </div></fb:stat>
+        <!--- end menubox ---> 
+
+<fb:dictionery><div class="menu-block tagsbox">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> ديكشنري</h3>
+                </div>
+                <div class="menu-cnt">
+                    [#dictionery#]
+                </div>
+            </div></fb:dictionery>
+        <!--- end menubox ---> 
+
+<fb:translate><div class="menu-block tagsbox">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> مترجم</h3>
+                </div>
+                <div class="menu-cnt">
+                    [#translate#]
+                </div>
+            </div></fb:translate>
+        <!--- end menubox ---> 
+        
+      </div>
+      <!--- end sidebar ---> </div>
+    <!--- end col of right sidebar --->
+    
+    <div class="pc-9">
+      <div class="sidebar">
+        <fb:search_box><div class="menu-block">
+          <div class="menu-cnt">
+            <center>
+              <div class="todaytime"> <span class="tticon"> [#today_time#] </span> </div>
+              <div class="searchbox">
+                <form method="GET" action="http://www.google.com/search" class="searchform">
+                  <input type="hidden" name="ie" value="UTF-8">
+                  <input type="hidden" name="oe" value="UTF-8">
+                  <input type="text" name="q" size="15" maxlength="255" class="isearch" dir="rtl"  
+              onfocus="if(this.value == '...') { this.value = ''; }" value="..." placeholder="..."  >
+                  <input type="hidden" name="domains" value="[#blog_url#]">
+                  <input type="hidden" name="sitesearch" value="[#blog_url#]" checked>
+                  <input class="button" type="submit" name="btnG" value="جستجو" />
+                </form>
+              </div>
+            </center>
+          </div>
+        </div></fb:search_box>
+        <!--- end menubox --->
+        
+        <fb:follower>
+            <div class="menu-block followers">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> دنبال كنندگان </h3>
+                    <span class="followers-cunt">[#flower_count#] نفر</span> </div>
+                <div class="menu-cnt">
+                    <ul>
+                        <fb:follower_item limit="16"><li><a href="[#follower_link#]" target="_blank"><img src="[#follower_avatar#]"/></a></li>
+                        </fb:follower_item>
+                        </ul>
+<center><a href="http:///royablog.ir/User/Flowing/?blog=[#blog_url#]" id="thisFlow" class="thisFlow followers-plus">اين وبلاگ را دنبال كنيد &nbsp;&nbsp;<span>+</span></a></center>
+                </div>
+            </div></fb:follower>
+        <!--- end menubox --->
+        
+        <fb:top_post>
+                <div class="menu-block">
+                    <div class="menu-title"> <span class="menu-title-icon"></span>
+                        <h3> پربازديدترين مطالب</h3>
+                    </div>
+                    <div class="menu-thumb">
+                        <ul>
+                            <fb:post_item limit="6">
+                                <li><a href="[#post_link#]"><img src="[#post_image#]" alt="[#post_title#]" title="[#post_title#]"/>[#post_title#]</a></li>
+                            </fb:post_item>
+                        </ul>
+                    </div>
+                </div>
+            </fb:top_post>
+        <!--- end menubox --->
+        
+        <fb:top_post><div class="menu-block">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> محبوب ترين مطالب</h3>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <fb:post_item limit="6" type="like"><li><a href="[#post_link#]">[#post_title#]</a></li>
+                        </fb:post_item>
+                    </ul>
+                </div>
+            </div></fb:top_post>
+        <!--- end menubox --->
+        
+        <fb:top_post><div class="menu-block">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> پربحث ترين مطالب</h3>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <fb:post_item limit="6" type="comment"><li><a href="[#post_link#]">[#post_title#]</a></li>
+                        </fb:post_item>
+                    </ul>
+                </div>
+            </div></fb:top_post>
+
+<fb:clock>
+<div class="menu-block">
+	<div class="menu-title"> <span class="menu-title-icon"></span>
+		<h3> ساعت</h3>
+	</div>
+	<div class="menu-list">
+		<center>[#clock#]</center>
+	</div>
+</div>
+</fb:clock>
+        <!--- end menubox --->
+
+<fb:music>
+<div class="menu-block">
+	<div class="menu-title"> <span class="menu-title-icon"></span>
+		<h3> موزيك</h3>
+	</div>
+	<div class="menu-cnt">
+		<center>[#music#]</center>
+	</div>
+</div>
+</fb:music>
+        <!--- end menubox ---> 
+        
+        <fb:last_comments>
+                <div class="menu-block lastcmnt">
+                    <div class="menu-title"> <span class="menu-title-icon"></span>
+                        <h3>آخرين نظرات</h3>
+                    </div>
+                    <div class="menu-list">
+                        <ul>
+                            <fb:comment_item><li><a href="[#comment_link#]">[#comment_title#]</a></li>
+                            </fb:comment_item>
+                        </ul>
+                    </div>
+                </div>
+            </fb:last_comments>
+        <!--- end menubox --->
+        
+        <fb:daily_link>
+            <div class="menu-block linkbox">
+                <div class="menu-title"> <span class="menu-title-icon"></span>
+                    <h3> پيوندهاي روزانه</h3>
+                </div>
+                <div class="menu-list">
+                    <ul>
+                        <fb:link_item><li><a href="[#link_url#]" target="_blank">[#link_title#]</a></li></fb:link_item>
+                    </ul>
+                </div>
+            </div>
+        </fb:daily_link>
+        <!--- end menubox ---> 
+        
+      </div>
+      <!--- end sidebar ---> </div>
+    <!--- end col of left sidebar ---> 
+    
+  </div>
+  <!--- end row of main content --->
+  
+  <div class="btmbar">
+    <div class="row">
+      <div class="pc-36">
+        <div class="footer">
+          <div class="row">
+            <div class="pc-18">
+              <div class="copyright"> <a href="http://royablog.ir" target="_blank" title="رویابلاگ" class="fblogo"></a> [#blog_copyright#] </div>
+            </div>
+            <div class="pc-18">
+              <div class="dashboard">
+                <ul>
+                  <fb:HOME_URL><li><a href="[#HOME_URL#]" target="_blank" title="رویابلاگ" id="royablog-ico"></a></li></fb:HOME_URL>
+                <fb:UPLOADCENTER_URL><li><a href="[#UPLOADCENTER_URL#]" target="_blank" title="آپلودسنتر" id="uploadcenter-ico"></a></li></fb:UPLOADCENTER_URL>
+                <fb:CHARGE_URL><li><a href="[#CHARGE_URL#]" target="_blank" title="كارت شارژ" id="cartcharg-ico"></a></li></fb:CHARGE_URL>
+                <fb:TIME_URL><li><a href="[#TIME_URL#]" target="_blank" title="تاريخ و ساعت رسمي" id="datetime-ico"></a></li></fb:TIME_URL>
+                <fb:VIDEO_URL><li><a href="[#VIDEO_URL#]" target="_blank" title="اشتراك ويدئو" id="videoshare-ico"></a></li></fb:VIDEO_URL>
+                <fb:TEMPLATE_URL><li><a href="[#TEMPLATE_URL#]" target="_blank" title="قالب" id="blogtemp-ico"></a></li></fb:TEMPLATE_URL>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--- end footer ---> 
+  
+</div>
+<!--- end all of container --->
+
+</body>
+</html>
