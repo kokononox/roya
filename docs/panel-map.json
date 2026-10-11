@@ -1,0 +1,317 @@
+{
+  "blog": {
+    "url": "http://afp.royablog.ir/",
+    "title": "AFP - شرکت آبگسترفرا پارسیان",
+    "panel": "https://www.royablog.ir/UserPanel/",
+    "signin": "https://www.royablog.ir/SignIn/"
+  },
+  "reviewed_at": "2026-10-11",
+  "sections": [
+    {
+      "group": "پیشخوان مدیریت",
+      "title": "مرکز مدیریت",
+      "url": "https://www.royablog.ir/UserPanel/",
+      "notes": "ورود، منوی کناری، ویجت‌های میان‌بر، حالت تمام‌صفحه"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "نوشته جدید",
+      "url": "https://www.royablog.ir/User/AddPost/",
+      "notes": "ویرایشگر کامل، عنوان، آدرس، خلاصه، متن، کلمات کلیدی، تصویر، وضعیت انتشار، دسته‌بندی، محافظت با رمز"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "نوشته‌های پیشین",
+      "url": "https://www.royablog.ir/User/Posts/",
+      "notes": "فهرست مطالب با تاریخ، نویسنده، وضعیت، بازدید و نظرات"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "مدیریت موضوعات",
+      "url": "https://www.royablog.ir/User/CategoryList/",
+      "notes": "دسته و زیردسته سلسله‌مراتبی"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "صفحات مستقل و منوساز",
+      "url": "https://www.royablog.ir/User/MenuPage/",
+      "notes": "ساخت صفحه مستقل و منو"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "کلمات کلیدی",
+      "url": "https://www.royablog.ir/User/Keywords/",
+      "notes": "کلمات استفاده‌شده و مطالب فاقد کلمه کلیدی"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "نویسندگان",
+      "url": "https://www.royablog.ir/User/Author/",
+      "notes": "افزودن نویسنده جدید"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "تنظیمات نوشته",
+      "url": "https://www.royablog.ir/User/PostSetting/",
+      "notes": "رمز پیش‌فرض، تصحیح حروف فارسی، ۶ حالت آدرس‌دهی مطلب"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "تنظیمات ربات و کانال",
+      "url": "https://www.royablog.ir/User/BotSetting/",
+      "notes": "توکن ربات تلگرام، آدرس کانال، واترمارک"
+    },
+    {
+      "group": "نوشته‌ها",
+      "title": "ارسال پیام به کانال",
+      "url": "https://www.royablog.ir/User/SendMessage/",
+      "notes": "ارسال پیام به کانال تلگرام"
+    },
+    {
+      "group": "مدیریت نظرات",
+      "title": "همه نظرات",
+      "url": "https://www.royablog.ir/User/Comments/",
+      "notes": "تب همه نظرات و هرزنامه‌ها"
+    },
+    {
+      "group": "مدیریت نظرات",
+      "title": "مدیریت نظرسنجی‌ها",
+      "url": "https://www.royablog.ir/User/Vote/",
+      "notes": "فهرست و ثبت نظرسنجی جدید"
+    },
+    {
+      "group": "مدیریت نظرات",
+      "title": "پیام‌های مدیر",
+      "url": "https://www.royablog.ir/User/AdminMessage/",
+      "notes": "پیام‌های مدیر سایت + گزینه دریافت پیامک"
+    },
+    {
+      "group": "مدیریت نظرات",
+      "title": "تنظیمات نظرات",
+      "url": "https://www.royablog.ir/User/CommentSetting/",
+      "notes": "ترتیب نمایش، تأیید، ناشناس، خصوصی، محدودیت زمانی، نوع ویرایشگر"
+    },
+    {
+      "group": "پیوندها و ارتباط",
+      "title": "پیوندهای روزانه",
+      "url": "https://www.royablog.ir/User/DailyLinks/",
+      "notes": "ثبت پیوند با تاریخ، ارسال‌کننده و شمارش کلیک"
+    },
+    {
+      "group": "پیوندها و ارتباط",
+      "title": "پیوندهای وبلاگ",
+      "url": "https://www.royablog.ir/User/Links/",
+      "notes": "فهرست پیوندهای ثابت"
+    },
+    {
+      "group": "پیوندها و ارتباط",
+      "title": "شبکه‌های اجتماعی",
+      "url": "https://www.royablog.ir/User/Socials/",
+      "notes": "توییتر، اینستاگرام، تلگرام، فیسبوک، یوتیوب و ..."
+    },
+    {
+      "group": "پیوندها و ارتباط",
+      "title": "وبلاگ‌هایی که دنبال می‌کنم",
+      "url": "https://www.royablog.ir/User/Flowing/",
+      "notes": "دنبال کردن وبلاگ دیگران با نام کاربری رویا بلاگ"
+    },
+    {
+      "group": "پیوندها و ارتباط",
+      "title": "یادآوری امور شخصی",
+      "url": "https://www.royablog.ir/User/Notes/",
+      "notes": "یادداشت شخصی"
+    },
+    {
+      "group": "آمار و گزارش",
+      "title": "آمار کلی",
+      "url": "https://www.royablog.ir/User/FullStats/",
+      "notes": "آمار کل، امروز، دیروز، حاضرین، میانگین، پیش‌بینی"
+    },
+    {
+      "group": "آمار و گزارش",
+      "title": "ویژگی کاربران",
+      "url": "https://www.royablog.ir/User/UserUtility/",
+      "notes": "خطای HTTP 500 — بخش خراب"
+    },
+    {
+      "group": "آمار و گزارش",
+      "title": "پربازدیدترین‌ها",
+      "url": "https://www.royablog.ir/User/Visitors/",
+      "notes": "بازدید به تفکیک ساعت، روز و هفته"
+    },
+    {
+      "group": "آمار و گزارش",
+      "title": "ترافیک ورودی",
+      "url": "https://www.royablog.ir/User/Referrer/",
+      "notes": "نوع ارجاع، ارجاع‌دهندگان، موتورهای جستجو، خزنده‌ها"
+    },
+    {
+      "group": "آمار و گزارش",
+      "title": "تنظیمات آمار",
+      "url": "https://www.royablog.ir/User/SettingStats/",
+      "notes": "انتخاب اقلام آماری قابل نمایش"
+    },
+    {
+      "group": "قالب",
+      "title": "انتخاب قالب جدید",
+      "url": "https://www.royablog.ir/User/Template/",
+      "notes": "کتابخانه عمومی، قالب‌های من، ایجاد قالب اختصاصی"
+    },
+    {
+      "group": "قالب",
+      "title": "ویرایش ساختار قالب فعلی",
+      "url": "https://www.royablog.ir/User/Template/Edit/",
+      "notes": "ویرایش HTML قالب با تگ‌های سیستم"
+    },
+    {
+      "group": "قالب",
+      "title": "ویرایش CSS قالب فعلی",
+      "url": "https://www.royablog.ir/User/Template/Css/",
+      "notes": "ویرایش فایل CSS قالب"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "ابزار بستن راست کلیک",
+      "url": "https://www.royablog.ir/User/RightClick/",
+      "notes": "غیرفعال کردن راست‌کلیک"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "ابزار اسلایدر",
+      "url": "https://www.royablog.ir/User/Slide/",
+      "notes": "۶ تصویر با پیوند"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "ابزار هدایت به بالا",
+      "url": "https://www.royablog.ir/User/Up/",
+      "notes": "۳۰ تصویر آماده"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "ابزار نمایش ساعت",
+      "url": "https://www.royablog.ir/User/Clock/",
+      "notes": "چند مدل ساعت فلش"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "ابزار تغییر نوار اسکرول",
+      "url": "https://www.royablog.ir/User/Scroll/",
+      "notes": "طول، رنگ، محل، مخفی‌شدن خودکار"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "گزارش کپی‌برداری‌ها",
+      "url": "https://www.royablog.ir/User/CopyRight/",
+      "notes": "فهرست کپی‌ها + متن الحاقی"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "فضای اختصاصی (آپلودسنتر)",
+      "url": "https://www.royablog.ir/User/UploadCenter/",
+      "notes": "غیرفعال"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "پیغام ورود و خروج کاربر",
+      "url": "https://www.royablog.ir/User/Alert/",
+      "notes": "پیام هنگام ورود و خروج"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "مترجم سایت",
+      "url": "https://www.royablog.ir/User/Translate/",
+      "notes": "ترجمه صفحه وبلاگ"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "دیکشنری آنلاین",
+      "url": "https://www.royablog.ir/User/Dictionery/",
+      "notes": "ترجمه کلمه به کلمه"
+    },
+    {
+      "group": "امکانات و ابزارها",
+      "title": "پخش موزیک",
+      "url": "https://www.royablog.ir/User/Music/",
+      "notes": "دو نوع پخش‌کننده، چند فایل، پخش خودکار"
+    },
+    {
+      "group": "مهاجرت",
+      "title": "مهاجرت به رویا بلاگ",
+      "url": "https://www.royablog.ir/User/Transfer/",
+      "notes": "انتقال از بلاگفا، میهن بلاگ، لوکس بلاگ"
+    },
+    {
+      "group": "مدیریت دامنه‌ها",
+      "title": "اتصال دامنه به وبلاگ",
+      "url": "https://www.royablog.ir/User/ParkDomain/",
+      "notes": "NS1/NS2.royablog.ir یا CNAME.royablog.ir"
+    },
+    {
+      "group": "تنظیمات وبلاگ",
+      "title": "تنظیمات عمومی وبلاگ",
+      "url": "https://www.royablog.ir/User/MiniSetting/",
+      "notes": "عنوان، توضیح مختصر، درباره ما، کلمات کلیدی، تصویر"
+    },
+    {
+      "group": "تنظیمات وبلاگ",
+      "title": "تنظیمات اصلی وبلاگ",
+      "url": "https://www.royablog.ir/User/NormalSetting/",
+      "notes": "تعداد مطالب، جستجو، تاریخ و تقویم، جعبه‌های کناری، RSS"
+    },
+    {
+      "group": "تنظیمات وبلاگ",
+      "title": "مدیریت پروفایل",
+      "url": "https://www.royablog.ir/User/Profile/Edit/",
+      "notes": "اطلاعات شخصی، تصویر، کنترل نمایش پروفایل"
+    },
+    {
+      "group": "تنظیمات وبلاگ",
+      "title": "ثبت سایت جدید",
+      "url": "https://www.royablog.ir/User/NewBlog/",
+      "notes": "ساخت وبلاگ دیگر با آدرس *.royablog.ir"
+    },
+    {
+      "group": "تنظیمات وبلاگ",
+      "title": "حذف سایت",
+      "url": "https://www.royablog.ir/User/Delete/",
+      "notes": "حذف کامل وبلاگ (برگشت‌ناپذیر)"
+    },
+    {
+      "group": "مدیریت کاربری",
+      "title": "مشخصات کاربری",
+      "url": "https://www.royablog.ir/User/Profile/",
+      "notes": "نام کاربری، ایمیل، موبایل، تاریخ تولد، جنسیت"
+    },
+    {
+      "group": "مدیریت کاربری",
+      "title": "تغییر رمز ورود",
+      "url": "https://www.royablog.ir/User/ChangePassword/",
+      "notes": "پسورد قدیمی و جدید"
+    },
+    {
+      "group": "سایر",
+      "title": "اتاق گفت‌وگو",
+      "url": "https://www.royablog.ir/User/Chat/",
+      "notes": "چت‌روم عمومی رویا بلاگ"
+    },
+    {
+      "group": "سایر",
+      "title": "حذف تبلیغات وبلاگ",
+      "url": "https://www.royablog.ir/User/BlogAds/",
+      "notes": "نمایش/عدم نمایش تبلیغ"
+    },
+    {
+      "group": "سایر",
+      "title": "تماس با ما / پشتیبانی",
+      "url": "https://www.royablog.ir/Contuctus/",
+      "notes": "ارسال پیام به مدیریت، پشتیبانی، پلیس سایت"
+    },
+    {
+      "group": "سایر",
+      "title": "اخبار و اطلاعیه",
+      "url": "https://www.royablog.ir/User/NewsMessage/",
+      "notes": "اخبار رویا بلاگ"
+    }
+  ]
+}
