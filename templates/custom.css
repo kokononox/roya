@@ -330,3 +330,21 @@ a.skip-link:link, a.skip-link:visited { color: #fff; }
 /* ---------- کوتاه‌سازی متن درباره وبلاگ ---------- */
 .about-text { display: -webkit-box; -webkit-line-clamp: 14; -webkit-box-orient: vertical; overflow: hidden; position: relative; }
 .about-text:after { content: ""; position: absolute; bottom: 0; right: 0; left: 0; height: 2.6em; background: linear-gradient(rgba(255,255,255,0), var(--surface)); pointer-events: none; }
+
+/* ---------- اصلاحات صفحه‌های مستقل و جلوگیری از سرریز افقی ---------- */
+html { overflow-x: hidden; }
+.slide-box:empty { display: none; }
+.mce-container, .mce-tinymce, .mce-floatpanel, .mce-panel, .mce-toolbar, .mce-toolbar-grp, .mce-statusbar, .mce-menu, .mce-popupcontainer, .mce-widget.mce-btn { display: none !important; }
+.page-content, .static-page, .post-content table { max-width: 100%; overflow-x: auto; }
+.post-content { overflow-wrap: break-word; word-wrap: break-word; }
+
+/* ---------- جایگاه محتوای صفحه‌های مستقل ---------- */
+.no-comment { color: var(--ink-2); background: none; border-radius: 0; padding: 0; }
+.no-comment:empty { display: none; }
+
+.no-comment-text { color: var(--ink-2); }
+.no-comment-text:empty { display: none; }
+
+/* ---------- اصلاح اندازه تصاویر ---------- */
+.about-img { display: block; margin: 0 auto 12px; border-radius: var(--radius-sm); max-height: 170px; width: auto; max-width: 100%; }
+.thumb-list img { width: 84px; height: 64px; object-fit: cover; border-radius: var(--radius-sm); flex-shrink: 0; background: var(--lime-100); }

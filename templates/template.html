@@ -352,6 +352,24 @@ a.skip-link:link, a.skip-link:visited { color: #fff; }
 .about-text { display: -webkit-box; -webkit-line-clamp: 14; -webkit-box-orient: vertical; overflow: hidden; position: relative; }
 .about-text:after { content: ""; position: absolute; bottom: 0; right: 0; left: 0; height: 2.6em; background: linear-gradient(rgba(255,255,255,0), var(--surface)); pointer-events: none; }
 
+/* ---------- اصلاحات صفحه‌های مستقل و جلوگیری از سرریز افقی ---------- */
+html { overflow-x: hidden; }
+.slide-box:empty { display: none; }
+.mce-container, .mce-tinymce, .mce-floatpanel, .mce-panel, .mce-toolbar, .mce-toolbar-grp, .mce-statusbar, .mce-menu, .mce-popupcontainer, .mce-widget.mce-btn { display: none !important; }
+.page-content, .static-page, .post-content table { max-width: 100%; overflow-x: auto; }
+.post-content { overflow-wrap: break-word; word-wrap: break-word; }
+
+/* ---------- جایگاه محتوای صفحه‌های مستقل ---------- */
+.no-comment { color: var(--ink-2); background: none; border-radius: 0; padding: 0; }
+.no-comment:empty { display: none; }
+
+.no-comment-text { color: var(--ink-2); }
+.no-comment-text:empty { display: none; }
+
+/* ---------- اصلاح اندازه تصاویر ---------- */
+.about-img { display: block; margin: 0 auto 12px; border-radius: var(--radius-sm); max-height: 170px; width: auto; max-width: 100%; }
+.thumb-list img { width: 84px; height: 64px; object-fit: cover; border-radius: var(--radius-sm); flex-shrink: 0; background: var(--lime-100); }
+
 </style>
 </head>
 <body>
@@ -372,7 +390,7 @@ a.skip-link:link, a.skip-link:visited { color: #fff; }
 <header class="site-header">
 <div class="wrap header-in">
 <div class="brand-box">
-<h1 class="brand"><a href="[#blog_url#]">[#blog_title#]</a></h1>
+<h1 class="brand"><a href="[#blog_url#]" title="[#blog_title#]">AFP — شرکت آبگستر فرا پارسیان</a></h1>
 <p class="brand-tag">[#blog_describtion#]</p>
 </div>
 <div class="header-actions">
@@ -490,10 +508,13 @@ a.skip-link:link, a.skip-link:visited { color: #fff; }
 </nav>
 </fb:blog_page>
 
+<!--- Start PAGES --->
+<!--- end PAGES --->
+
 <fb:post_comments>
 <section class="comments" id="comments">
 <h2 class="sec-title">نظرات کاربران</h2>
-<fb:comment_has_not><div class="no-comment">تا کنون نظری ثبت نشده است. اولین نظر را شما بنویسید.</div></fb:comment_has_not>
+<fb:comment_has_not><div class="no-comment"><div class="no-comment-text">هنوز نظری ثبت نشده است.</div></div></fb:comment_has_not>
 <fb:comment_item>
 <div class="comment">
 <div class="comment-head">
@@ -780,7 +801,7 @@ a.skip-link:link, a.skip-link:visited { color: #fff; }
 <footer class="site-footer">
 <div class="wrap footer-grid">
 <div class="f-col">
-<h3 class="f-title">[#blog_title#]</h3>
+<h3 class="f-title">AFP — شرکت آبگستر فرا پارسیان</h3>
 <p>تولیدکننده نوار تیپ و لوله‌های آبیاری قطره‌ای؛ همراه با مقالات تخصصی کشاورزی، راهنمای خرید و پشتیبانی فنی برای کشاورزان سراسر ایران.</p>
 </div>
 <div class="f-col">
@@ -824,5 +845,18 @@ a.skip-link:link, a.skip-link:visited { color: #fff; }
 </div>
 </footer>
 
+
+<script>
+(function () {
+  function hideEmptyBoxes() {
+    var boxes = document.querySelectorAll('.side-col .box');
+    for (var i = 0; i < boxes.length; i++) {
+      var list = boxes[i].querySelector('.box-body > ul, .box-body > .tag-cloud, .box-body > .social-list, .box-body > .thumb-list, .box-body > .follower-list');
+      if (list && list.children.length === 0) { boxes[i].style.display = 'none'; }
+    }
+  }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', hideEmptyBoxes); } else { hideEmptyBoxes(); }
+})();
+</script>
 </body>
 </html>
