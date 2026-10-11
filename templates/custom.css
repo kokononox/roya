@@ -5,6 +5,7 @@
 
 /* ---------- توکن‌های طراحی ---------- */
 :root {
+  color-scheme: light;
   --green-900: #14361f;
   --green-700: #1f6b34;
   --green-600: #2e8b45;
@@ -325,3 +326,7 @@ a.skip-link:link, a.skip-link:visited { color: #fff; }
 .dashboard a:link, .dashboard a:visited { color: #a9c2a1; }
 .social-list a:link, .social-list a:visited { color: var(--green-900); }
 .tag-cloud a:link, .tag-cloud a:visited { color: var(--green-900); }
+
+/* ---------- کوتاه‌سازی متن درباره وبلاگ ---------- */
+.about-text { display: -webkit-box; -webkit-line-clamp: 14; -webkit-box-orient: vertical; overflow: hidden; position: relative; }
+.about-text:after { content: ""; position: absolute; bottom: 0; right: 0; left: 0; height: 2.6em; background: linear-gradient(rgba(255,255,255,0), var(--surface)); pointer-events: none; }
